@@ -13,5 +13,5 @@ with open(file_to_load) as election_data:
 
     # Print the header row.
     headers = next(file_reader)
-    print(headers)
+    print(headers) 
     
